@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NeedGiveController">
+   <children>
+      <TextField fx:id="userToAdd" alignment="TOP_LEFT" layoutX="198.0" layoutY="44.0" prefHeight="104.0" prefWidth="308.0" promptText="abc123">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="itemToAdd" alignment="TOP_LEFT" layoutX="198.0" layoutY="198.0" prefHeight="104.0" prefWidth="308.0" promptText="Toilet Paper">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="numToAdd" alignment="TOP_LEFT" layoutX="198.0" layoutY="347.0" prefHeight="104.0" prefWidth="308.0" promptText="3">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Button fx:id="person" layoutX="32.0" layoutY="34.0" mnemonicParsing="false" prefHeight="125.0" prefWidth="125.0" stylesheets="@../../bin/application/application.css" />
+      <Button fx:id="cart" layoutX="40.0" layoutY="193.0" mnemonicParsing="false" prefHeight="114.0" prefWidth="110.0" stylesheets="@../../bin/application/application.css" />
+      <Button fx:id="questionMark" layoutX="15.0" layoutY="337.0" mnemonicParsing="false" prefHeight="125.0" prefWidth="160.0" stylesheets="@../../bin/application/application.css" />
+      <Button fx:id="home" layoutX="583.0" layoutY="337.0" mnemonicParsing="false" onAction="#goHome" prefHeight="139.0" prefWidth="146.0" stylesheets="@../../bin/application/application.css" />
+      <Button fx:id="addSubtract" layoutX="553.0" mnemonicParsing="false" onAction="#processItems" prefHeight="151.0" prefWidth="160.0" stylesheets="@../../bin/application/application.css" />
+      <Label fx:id="myMessage" alignment="CENTER" layoutX="506.0" layoutY="198.0" prefHeight="104.0" prefWidth="244.0">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="toggler" layoutX="304.0" layoutY="12.0" prefHeight="32.0" prefWidth="96.0">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

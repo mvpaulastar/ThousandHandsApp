@@ -1,0 +1,51 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+#need{
+	-fx-background-image:url("Need.png");
+	-fx-background-size:100% 100%;
+}
+
+#give{
+	-fx-background-image:url("Give.png");
+	-fx-background-size:100% 100%;
+}
+
+#inventory{
+	-fx-background-image:url("Inventory.png");
+	-fx-background-size:100% 100%;
+}
+
+#cart{
+	-fx-background-image:url("Cart.png");
+	-fx-background-size:100% 100%;
+}
+
+#thousandHands{
+	-fx-background-image:url("ThousandHands.png");
+	-fx-background-size:100% 100%;
+}
+
+#questionMark{
+	-fx-background-image:url("QuestionMark.png");
+	-fx-background-size:100% 100%;
+}
+
+#home{
+	-fx-background-image:url("home.png");
+	-fx-background-size:100% 100%;
+}
+
+#person{
+	-fx-background-image:url("person.png");
+	-fx-background-size:100% 100%;
+}
+
+#addSubtract{
+	-fx-background-image:url("AddSubtract.png");
+	-fx-background-size:100% 100%;
+}
+
+.button
+ {
+    -fx-background-color: transparent;
+ }
