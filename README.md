@@ -1,5 +1,5 @@
 # ThousandHandsApp
-The Thousand Hands app is an application created by Paula Sirisumpund in the Application Programming Class at UTSA.
+The Thousand Hands app is an application created by Paula Sirisumpund for a class.
 The app is an inventory management app that allows users to donate items to an existing inventory as well as retrieve items from a catalog of donated items.
 
 - Java 8
